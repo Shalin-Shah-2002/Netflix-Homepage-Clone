@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(Assets/image/bg.jpg);
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100%, 1350px);
+}
+
+.box {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+
+}
+
+.logo {
+    background-image: url(Assets/image/logo.svg);
+    background-size: cover;
+    height: 200px;
+    width: 750px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+
+    height: 82px;
+    /* padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px; */
+    position: relative;
+    z-index: 1;
+
+}
+
+.nav-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn .btn {
+    display: flex;
+    gap: 7px;
+}
+
+.hero {
+    height: calc(100% - 82px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0 30px;
+    gap: 23px;
+
+
+}
+
+.hero> :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+
+}
+
+.sepration {
+    height: 8px;
+    background-color: #232323;
+}
+
+.btn {
+    background-color: rgba(23, 23, 23, 0.8);
+    padding: 6px 10px;
+    border-color: #5E605F;
+    font-weight: bold;
+    color: white;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 8px 35px;
+    border: 0.5px solid #5E605F;
+}
+
+.btn-sm {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+input {
+    padding: 0px 138px 0px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 300;
+    background-color: rgba(23, 23, 23, 0.8);
+    border-color: #5E605F;
+    color: white;
+    border-width: 0px;
+    margin-right: 10px;
+    text-align: start;
+    border: 0.5px solid #5E605F;
+}
+
+.btn-red {
+    background-color: red;
+    border: none;
+    padding: 11px 25px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+
+
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first {
+
+    padding: 72px 0px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    margin: 0px 380px 0px 380px;
+}
+
+.first-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.first-text :nth-child(1) {
+    font-size: 48px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.first-text :nth-child(2) {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.secimg {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 97px;
+    right: 79px;
+    z-index: -1;
+}
+
+.second {
+    padding: 72px 0px;
+}
+
+.second>div :nth-child(2)>span {
+    line-height: 50px;
+
+}
+
+.third {
+    padding: 72px 0px;
+}
+
+.secimg2 {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.secimg2 video {
+    position: absolute;
+    height: 297px;
+    width: 400px;
+    right: 120px;
+    top: 5px;
+    z-index: -1;
+}
+
+#second-text>span {
+    line-height: 55px;
+}
+
+#second-text :nth-child(2) {
+    line-height: 39px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq h2 {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.faqbox {
+    display: flex;
+    background-color: #2D2D2D;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 60%;
+    margin: 8px auto;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;    
+}
+.faqbox:hover{
+    background-color: #3f3e3e;
+}
+.faq> span{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.faq .email {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 509px;
+    margin-bottom: 40px;
+}
